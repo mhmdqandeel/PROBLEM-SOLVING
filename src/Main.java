@@ -5,7 +5,9 @@ import java.util.stream.IntStream;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(lexicalOrder(13));
+//        System.out.println(lexicalOrder(13));
+
+        System.out.println(Math.log(4) / Math.log(2));
     }
 
     public static List<Integer> lexicalOrder(int n) {
