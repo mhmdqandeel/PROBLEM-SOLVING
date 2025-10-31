@@ -7,7 +7,7 @@ public class Solution {
 
         int length = 0;
 
-        for (int i = trimStr.length()-1; i > 0 ; i--) {
+        for (int i = trimStr.length()-1; i >= 0 ; i--) {
             if (trimStr.charAt(i) == ' ') {
                 break;
             }
